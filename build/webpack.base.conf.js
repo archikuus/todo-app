@@ -23,6 +23,8 @@ module.exports = {
     alias: {
       'vue$': 'vue/dist/vue.esm.js',
       '@': resolve('src'),
+      'jquery': path.resolve(__dirname, '../node_modules/jquery/dist/jquery.min.js'),
+      'semantic': path.resolve(__dirname, '../node-modules/semantic-ui-css/semantic.min.js')
     }
   },
   module: {
